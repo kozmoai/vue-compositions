@@ -1,11 +1,13 @@
 name: Release
 
 on:
-  push:
+  workflow_dispatch:
+
+#  push:
 #    paths:
 #      - package.json
-    branches:
-      - main
+#    branches:
+#      - main
       
 jobs:
 
