@@ -3,7 +3,7 @@ The `useMutationObserver` abstracts the creation of a [MutationObserver](https:/
 
 ## Example
 ```typescript
-import { useMutationObserver } from '@prefecthq/vue-compositions'
+import { useMutationObserver } from '@kozmoai/vue-compositions'
 
 const callback: MutationCallback = function(mutations: MutationRecord[], observer: MutationObserver) {
   ...

@@ -4,7 +4,7 @@ The `useBoolean` is a utility composition for handling the state of a boolean re
 ## Example
 ```typescript
 import { ref } from 'vue'
-import { useBoolean } from '@prefecthq/vue-compositions'
+import { useBoolean } from '@kozmoai/vue-compositions'
 
 const initialValueRef = ref(false)
 // The initial ref is optional
