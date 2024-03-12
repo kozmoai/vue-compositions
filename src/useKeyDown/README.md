@@ -3,7 +3,7 @@ The `useKeyDown` composition can be used to react to keydown [events](https://de
 
 ## Example
 ```typescript
-import { useKeyDown } from '@kozmoai/vue-compositions'
+import { useKeyDown } from '@prefecthq/vue-compositions'
 
 const { down } = useKeyDown('Shift')
 ```

@@ -30,7 +30,7 @@ jobs:
 
       - name: Setup
         id: setup
-        uses: kozmoai/actions-setup-nodejs@main
+        uses: prefecthq/actions-setup-nodejs@main
 
       - name: Lint application
         run: npm run lint
@@ -46,7 +46,7 @@ jobs:
 
       - name: Setup
         id: setup
-        uses: kozmoai/actions-setup-nodejs@main
+        uses: prefecthq/actions-setup-nodejs@main
 
       - name: Run unit tests
         run: npm run test

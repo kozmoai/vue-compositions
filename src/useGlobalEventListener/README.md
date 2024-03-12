@@ -5,7 +5,7 @@ The `useGlobalEventListener` composition can be used to automatically handle set
 ## Example
 
 ```typescript
-import { useGlobalEventListener } from '@kozmoai/vue-compositions'
+import { useGlobalEventListener } from '@prefecthq/vue-compositions'
 
 function handleEvent(event: MouseEvent) {
   // Respond to event

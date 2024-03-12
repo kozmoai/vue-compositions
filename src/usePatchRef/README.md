@@ -3,7 +3,7 @@ The `usePatchRef` abstracts away the get/set pattern for updating a computed obj
 
 ## Example
 ```typescript
-import { usePatch } from '@kozmoai/vue-compositions'
+import { usePatch } from '@prefecthq/vue-compositions'
 import { computed } from 'vue'
 
 type ValueType = Record<'myKey' | 'myOtherKey', string>

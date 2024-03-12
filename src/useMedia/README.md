@@ -3,7 +3,7 @@ The `useMedia` composition is a reactive wrapper around [window.matchMedia](http
 
 ## Example
 ```typescript
-import { useMedia } from '@kozmoai/vue-compositions'
+import { useMedia } from '@prefecthq/vue-compositions'
 
 export const small = useMedia('(min-width: 640px)')
 export const medium = useMedia('(min-width: 1024px)')

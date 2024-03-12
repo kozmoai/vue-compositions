@@ -9,8 +9,8 @@ export const plugin: Plugin = {
   install(app: App): void {
     setupDevtoolsPlugin({
       id: 'nebula-vue-compositions-devtools',
-      label: 'Nebula Devtools',
-      packageName: '@kozmoai/vue-compositions',
+      label: 'Prefect Devtools',
+      packageName: '@prefecthq/vue-compositions',
       homepage: 'https://www.nebula.io/',
       settings: {
         ...useSubscriptionDevtools.SUBSCRIPTION_DEVTOOLS_SETTINGS,

@@ -1,6 +1,6 @@
 import { ref, Ref } from 'vue'
-import { MaybeRef } from '@/types/maybe'
-import { tryOnScopeDispose } from '@/utilities/tryOnScopeDispose'
+import { MaybeRef } from '../types/maybe'
+import { tryOnScopeDispose } from '../utilities/tryOnScopeDispose'
 
 export type UseNow = {
   now: Ref<Date>,

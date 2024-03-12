@@ -10,7 +10,7 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "cSpell.words": [
     "isequal",
-    "kozmoai"
+    "prefecthq"
   ],
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {

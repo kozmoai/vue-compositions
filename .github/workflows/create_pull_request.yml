@@ -16,7 +16,7 @@ jobs:
       - name: Checkout orion
         uses: actions/checkout@v2
         with: 
-          repository: kozmoai/orion
+          repository: PrefectHQ/orion
           token: ${{ secrets.PAT }}
 
       - name: Read .nvmrc
@@ -37,7 +37,7 @@ jobs:
         run: git checkout -b "update-vue-compositions"
 
       - name: Update dependency
-        run: npm install @kozmoai/vue-compositions@latest --save --save-exact
+        run: npm install @prefecthq/vue-compositions@latest --save --save-exact
 
       - name: Commit dependency update
         run: |

@@ -10,7 +10,7 @@
     "sourceType": "module",
     "parser": "@typescript-eslint/parser"
   },
-  "extends": ["@kozmoai"],
+  "extends": ["@prefecthq"],
   "overrides": [
     {
       "files": ["**/*.spec.js", "**/*.spec.ts"]

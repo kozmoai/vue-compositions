@@ -44,7 +44,7 @@ export const SUBSCRIPTION_DEVTOOLS_SETTINGS = {
   //   defaultValue: 0xFF69B4,
   //   options: [
   //     { value: 0x4fc08d, label: 'Vue Green' },
-  //     { value: 0x175cd3, label: 'Nebula Blue' },
+  //     { value: 0x175cd3, label: 'Prefect Blue' },
   //     { value: 0xFF69B4, label: 'Hot' }
   //   ],
   //   component: 'button-group'
